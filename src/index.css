@@ -1,0 +1,68 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/*  ------------------------------- */
+/* -------------HEADER------------- */
+/*  ------------------------------- */
+#home {
+  background-image: url("../src/assets/images/bg.jpeg");
+  background-size: cover;
+  min-height: 100vh;
+   width: 100%;
+  height: auto;
+}
+
+.logo {
+  display: inline-block;
+  padding: 5px;
+}
+
+/* NAVBAR LINKS */
+#nav li a {
+  display: inline-block;
+  padding: 20px 15px;
+  line-height: 32px;
+  text-decoration: none;
+  color: black;
+  
+}
+
+
+ul#nav li.current a { color: #2bc843; }
+
+#center {
+  text-align: center;
+  margin: 10%;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+/*  ------------------------------- */
+/* -------------ABOUT------------- */
+/*  ------------------------------- */
+#about {
+  min-height: 100vh;
+
+}
+
+/*  ------------------------------- */
+/* -----------PORTFOLIO------------ */
+/*  ------------------------------- */
+#portfolio {
+  min-height: 100vh;
+  background: #d2a073;
+
+}
