@@ -77,12 +77,23 @@ ul#nav li.current a {
   flex-wrap: wrap;
 } */
 
+/* .resume-body {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10%;
+  margin-top: 5%;
+} */
+
+
 /*  ------------------------------- */
 /* ------------CONTACT------------- */
 /*  ------------------------------- */
 #contact {
   min-height: 100vh;
   padding-top: 50px;
+  background: #d2a073;
+
 }
 
 .contact-form {
@@ -165,3 +176,100 @@ ul#nav li.current a {
   color: #ACF2E5;
   transition: .5s ease;
 }
+
+/*  ------------------------------- */
+/* -------------RESUME-------------- */
+/*  ------------------------------- */
+
+.hi {
+  min-height: 100vh;
+}
+
+.download-intro p {
+  line-height: 32px;
+  color: #0E5259;
+  width: 95%;
+  font-size: 30px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.resume-body {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.resume-body>* {
+  flex: 1;
+  margin: 150px;
+}
+
+.article {
+  margin: 10px;
+  margin-bottom: 1em;
+  background-color: #B4D9CB;
+}
+
+.download-text {
+  height: auto;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
+
+.download-logo {
+  cursor: pointer;
+  list-style: none;
+  font-size: 40px;
+  color: #0E5259;
+  display: inline-block;
+}
+
+.download-logo:hover {
+  color: #328C83;
+  opacity: 0.5;
+  transition: .5s ease;
+}
+
+
+
+.download-info {
+  flex: 3 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+/* .download-text {
+  flex: 12;
+} */
+/* 
+.download-text p {
+  color: #328C83;
+  font-size: 32px;
+} */
+
+.column-title {
+  color: #285950;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.column-text {
+  color: #285950;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.column-text ul li {
+  list-style: none;
+}
+
+
+
+
+
