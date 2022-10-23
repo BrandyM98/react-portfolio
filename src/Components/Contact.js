@@ -69,7 +69,7 @@ function Contact() {
               onChange={handleInputChange}
               type="text"
               id="contact-name"
-              placeholder="Please enter your name"
+              placeholder="Name"
             />
 
             <label for="contact-email">Email</label>
@@ -79,7 +79,7 @@ function Contact() {
               onChange={handleInputChange}
               type="email"
               id="contact-email"
-              placeholder="Please enter your email"
+              placeholder="Email"
             />
 
             <label for="contact-message">Message</label>
@@ -89,10 +89,10 @@ function Contact() {
               onChange={handleInputChange}
               type="message"
               id="contact-message"
-              placeholder=""
+              placeholder="Message"
             />
             <button type="button" onClick={handleFormSubmit}>
-              Submit
+              Connect!
             </button>
           </form>
         </div>

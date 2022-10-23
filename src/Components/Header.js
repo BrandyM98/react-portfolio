@@ -48,7 +48,7 @@ export default class Header extends Component {
             <h1 className="responsive-headline">
               I am {informationData.name}.
             </h1>
-            <h3 style={{ color: "orange", fontFamily: "sans-serif " }}>
+            <h3 style={{ fontFamily: "sans-serif " }}>
               I am a {informationData.role}.{informationData.roleDescription}
             </h3>
             <ul className="social">
