@@ -7,7 +7,7 @@ import { GrDocumentPerformance } from "react-icons/gr";
 
 function Resume() {
   return (
-    <div className="hi">
+    <div>
       <section id="resume" className="download-intro">
         <div className="flex-row">
           <h2 className="section-title primary-border">My Resume</h2>

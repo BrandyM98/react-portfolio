@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import { FiGithub } from "react-icons/fi";
 import { AiOutlineLinkedin } from "react-icons/ai";
+import Nav from 'react-bootstrap/Nav';
 
 export default class Header extends Component {
   render() {
     let informationData = this.props.informationData;
     return (
       <header id="home">
-        <nav id="nav-wrap">
+        <Nav className="justify-content-center" >
           <ul id="nav" className="nav">
             <li className="current">
               <a className="smoothscroll" href="#home">
@@ -35,10 +36,10 @@ export default class Header extends Component {
               </a>
             </li>
           </ul>
-        </nav>
+        </Nav>
 
         <div className="row banner" id="center">
-          <div className="banner-text">
+          <div>
             <h1 className="responsive-headline">
               I am {informationData.name}.
             </h1>

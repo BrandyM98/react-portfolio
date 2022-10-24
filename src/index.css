@@ -27,11 +27,6 @@ code {
   height: auto;
 }
 
-.logo {
-  display: inline-block;
-  padding: 5px;
-}
-
 /* NAVBAR LINKS */
 #nav li a {
   display: inline-block;
@@ -41,7 +36,11 @@ code {
   color: black;
   text-align: center;
   position: sticky;
+}
 
+.logo {
+  display: inline-block;
+  padding: 5px;
 }
 
 
@@ -50,10 +49,16 @@ ul#nav li.current a {
 }
 
 #center {
-  text-align: center;
-  margin: 10%;
   font-size: 18px;
   line-height: 1.2;
+  left: 0;
+  line-height: 200px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+
 }
 
 /*  ------------------------------- */
@@ -61,7 +66,16 @@ ul#nav li.current a {
 /*  ------------------------------- */
 #about {
   min-height: 100vh;
+}
 
+.profileImage {
+padding-top: 90px;
+}
+
+#para {
+  text-align: center;
+  padding: 20px;
+  font-size: large;
 }
 
 /*  ------------------------------- */
@@ -72,27 +86,20 @@ ul#nav li.current a {
   background: #d2a073;
 }
 
-/* .works {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-} */
-
-/* .resume-body {
+#item-wrap {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 10%;
   margin-top: 5%;
-} */
-
+}
 
 /*  ------------------------------- */
 /* ------------CONTACT------------- */
 /*  ------------------------------- */
 #contact {
   min-height: 100vh;
-  padding-top: 50px;
+  padding: 50px;
   background: #d2a073;
 
 }
@@ -143,7 +150,6 @@ ul#nav li.current a {
   vertical-align: top;
   text-align: left;
   margin: 30px 0 0 60px;
-
 }
 
 .contact-info h3 {
@@ -157,8 +163,6 @@ ul#nav li.current a {
   line-height: 1.5;
   font-size: 25px;
   font-style: normal;
-
-
 }
 
 #contact-list {
@@ -182,8 +186,8 @@ ul#nav li.current a {
 /* -------------RESUME-------------- */
 /*  ------------------------------- */
 
-.hi {
-  min-height: 100vh;
+#resume{
+  padding-top: 70px;
 }
 
 .download-intro p {
@@ -235,24 +239,12 @@ ul#nav li.current a {
   transition: .5s ease;
 }
 
-
-
 .download-info {
   flex: 3 70%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-
 }
-
-/* .download-text {
-  flex: 12;
-} */
-/* 
-.download-text p {
-  color: #328C83;
-  font-size: 32px;
-} */
 
 .column-title {
   color: #285950;
@@ -274,9 +266,6 @@ ul#nav li.current a {
 /* -------------FOOTER-------------- */
 /*  ------------------------------- */
 
-
-
-
 footer {
   background-color: #B4D9CB;
   font-weight: bold;
@@ -291,8 +280,7 @@ footer {
 }
 
 footer h2 {
-
-  color: #75BFB2;
+  color: #0E5259;
   font-size: 15px;
   margin: 0;
 }

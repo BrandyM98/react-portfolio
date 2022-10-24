@@ -9,7 +9,7 @@ let informationData = {
   name: "Brandy Moore",
   role: "Software Engineer",
   about:
-    "I am a Software Engineer with a background in Biology, trained at the University of North Carolina,Charlotte, coding boot camp and earned a certificate in fullstack web development. Innovative problem-solver passionate about developing user friendly applications; focused on mobile-first design and development. Strengths in creativity, teamwork, and building projects from ideation to creation.",
+    "Welcome! My name is Brandy and I am a Software Engineer trained at the University of North Carolina, Charlotte. I am an innovative problem-solver who is passionate about developing user friendly applications; focused on mobile-first design and development. Strengths in creativity, teamwork, and building projects from ideation to creation.",
   address: "Charlotte, NC",
   portfolio: [
     {
