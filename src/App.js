@@ -5,6 +5,7 @@ import About from "../src/Components/About";
 import Portfolio from "../src/Components/Portfolio";
 import Resume from "../src/Components/Resume";
 import Contact from "../src/Components/Contact";
+import Footer from "../src/Components/Footer";
 
 import informationData from "../src/information";
 
@@ -19,6 +20,7 @@ class App extends Component {
         <Portfolio informationData={informationData}/>
         <Resume informationData={informationData}/>
         <Contact informationData={informationData}/>
+        <Footer informationData={informationData}/>
       </div>
     );
   }

@@ -37,8 +37,8 @@ function Resume() {
               <li>HTML5</li>
               <li>CSS</li>
               <li>JavaScript</li>
-              <li>APIs</li>
               <li>Bootstrap</li>
+              <li>APIs</li>
               <li>GIT</li>
             </ul>
           </p>
@@ -50,11 +50,11 @@ function Resume() {
               <li className="logo">
                 <GrTechnology />
               </li>
-              <li>Node.Js</li>
-              <li>Jest</li>
               <li>Express.js</li>
-              <li>MySQL</li>
+              <li>Node.js</li>
+              <li>Jest</li>
               <li>Sequelize</li>
+              <li>MySQL</li>
               <li>Object-Relational Mapping(ORM)</li>
               <li>Model-View-Controller (MVC)</li>
             </ul>
@@ -67,13 +67,13 @@ function Resume() {
               <li className="logo">
                 <GrDocumentPerformance />
               </li>
-              <li>NoSQL</li>
               <li>Progressive Web Applications (PWA)</li>
+              <li>NoSQL</li>
               <li>MongoDB</li>
               <li>Mongoose</li>
               <li>GraphQL</li>
-              <li>React</li>
               <li>MERN</li>
+              <li>React</li>
               <li>State</li>
             </ul>
           </p>
