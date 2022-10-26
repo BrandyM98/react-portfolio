@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
-import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+import { BrowserRouter as Router, a } from "react-router-dom";
+import Card from "react-bootstrap/Card";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 
 export default class Porfolio extends Component {
   render() {
@@ -21,22 +21,16 @@ export default class Porfolio extends Component {
                   informationData.portfolio.map((item) => {
                     return (
                       <div className="columns portfolio-item">
-                       
                         <div className="item-wrap">
-                          <img
-                            src={item.imgurl}
-                            alt="portfolio"
-                            className="item-img"
-                          />
-                          
-                          <div className="overlay">
-                            <Link to={item.imglink}>
-                              <div className="portfolio-item-meta">
-                                <h5>{item.name}</h5>
-                                <p>{item.description}</p>
-                              </div>
-                            </Link>
-                          </div>
+                          <a href={item.imglink} target="blank">
+                            <img
+                              src={item.imgurl}
+                              alt="portfolio"
+                              className="item-img"
+                            />
+                          </a>
+                          <h5>{item.name}</h5>
+                          <p>{item.description}</p>
                         </div>
                       </div>
                     );
