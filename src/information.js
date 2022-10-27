@@ -37,10 +37,11 @@ let informationData = {
       name: "Code Quiz",
       description:
         "This code quiz project is a timed multiple-choice questioned quiz. This quiz features 4 questions, a timer, and a leadership board. When you press the begin button questions will begin to populate and the timer will begin. If questions are answered incorrectly, time is deducted. This project was completed using HTML, CSS, and JavaScript.",
-      imglink: "https://evening-river-11733.herokuapp.com/",
+      imglink: "https://brandym98.github.io/code-quiz-project/",
       imgurl: codeQuiz,
     },
     {
+      // cant use on real portfolio. link is broken
       name: "Employee Tracker",
       description:
         "This is a Content Management System (CMS) application that will allow you to manage a company's database. Using this application, you will be able to manage the company's employees, roles, and departments.",
@@ -51,7 +52,7 @@ let informationData = {
       name: "Work Day Scheduler",
       description:
         "This project is an app that allows the user to plan their day by the hourly block from 9am-5pm. The user can save text and also clear the text when needed.",
-      imglink: "https://bbelk.github.io/pokemon-giphy-group-project/",
+      imglink: "https://brandym98.github.io/work-day-scheduler-project/",
       imgurl: workDayScheduler,
     },
   ],

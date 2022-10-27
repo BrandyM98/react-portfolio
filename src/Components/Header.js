@@ -8,7 +8,7 @@ export default class Header extends Component {
     let informationData = this.props.informationData;
     return (
       <header id="home">
-        <Nav className="justify-content-center" >
+        <Nav className="justify-content-center">
           <ul id="nav" className="nav">
             <li className="current">
               <a className="smoothscroll" href="#home">
