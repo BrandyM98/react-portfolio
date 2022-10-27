@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.66a4888a.css",
+    "main.js": "/react-portfolio/static/js/main.43204319.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/profile.png": "/react-portfolio/static/media/profile.701dea89c7c5e00d4739.png",
+    "static/media/queenCityPups.png": "/react-portfolio/static/media/queenCityPups.d0307dbf86bdcab753cb.png",
+    "static/media/pokemonGiphy.png": "/react-portfolio/static/media/pokemonGiphy.e859bce50a82e8f24d2b.png",
+    "static/media/employeeTracker.png": "/react-portfolio/static/media/employeeTracker.e476b259d597e9c63dff.png",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.ca62207c80a464b6e010.pdf",
+    "static/media/bg.jpeg": "/react-portfolio/static/media/bg.18a00ad6e3f4bfe2176d.jpeg",
+    "static/media/workDayScheduler.png": "/react-portfolio/static/media/workDayScheduler.8fc30a5a4122779d1796.png",
+    "static/media/codeQuiz.png": "/react-portfolio/static/media/codeQuiz.569ef13b7c88760943e6.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.66a4888a.css.map": "/react-portfolio/static/css/main.66a4888a.css.map",
+    "main.43204319.js.map": "/react-portfolio/static/js/main.43204319.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66a4888a.css",
+    "static/js/main.43204319.js"
+  ]
+}
