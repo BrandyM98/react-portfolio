@@ -13,7 +13,7 @@ This application is a react portfolio that allows me to share my work with futur
 
 ## Submission
 
-[Deployed Application]()
+[Deployed Application](https://brandym98.github.io/react-portfolio/)
 
 ## Visuals
 Here is a visual of the front-end of the webpage design!
