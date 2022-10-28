@@ -26,7 +26,7 @@ function Contact() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    console.log(message);
+    // console.log(message);
 
     if (!validateEmail(email) || !name) {
       setErrorMessage("Email or Name is invalid");
@@ -61,49 +61,38 @@ function Contact() {
           </p>
         </div>
 
-        <div className="contact-form">
-          <h3>Contact Me</h3>
-          <form target="_blank" action="https://formsubmit.co/50b856b4356ea56f971217b3a081fecb" method="POST">
-            <label for="contact-name">Name</label>
-            <input
-              value={name}
-              name="name"
-              onChange={handleInputChange}
-              type="text"
-              id="contact-name"
-              placeholder="Name"
-            />
-
-            <label for="contact-email">Email</label>
-            <input
-              value={email}
-              name="email"
-              onChange={handleInputChange}
-              type="email"
-              id="contact-email"
-              placeholder="Email"
-            />
-
-            <label for="contact-message">Message</label>
-            <textarea
-              value={message}
-              name="message"
-              onChange={handleInputChange}
-              type="message"
-              id="contact-message"
-              placeholder="Message"
-            />
-            <button type="submit" onClick={handleFormSubmit}>
-              Connect!
-            </button>
-          </form>
-        </div>
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )}
-      </div>
+        <div class="form-group">
+      <h3>Contact Me</h3>
+  <form target="_blank" action="https://formsubmit.co/brandymoore923@gmail.com" method="POST">
+          <input 
+          type="text" 
+          value={name}
+          onChange={handleInputChange}
+          id="contact-name"
+          name="name" class="form-control" placeholder="Full Name" required
+          />
+          <input 
+          type="email" 
+          value={email}
+          onChange={handleInputChange}
+          id="contact-email"
+          name="email" class="form-control" placeholder="Email Address" required
+          />
+      <textarea 
+      rows="10" 
+      type="message"
+      value={message}
+      onChange={handleInputChange}
+      id="contact-message"
+      name="message" 
+      class="form-control" 
+      placeholder="Your Message" 
+      required
+      ></textarea>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+  </form>
+</div>
+</div>
 
       <p className="scrolldown">
           <a className="smoothscroll" href="#contact">
