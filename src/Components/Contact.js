@@ -3,7 +3,7 @@ import { validateEmail } from "../../src/Components/utils/helpers";
 
 function Contact() {
   const [email, setEmail] = useState("");
-  const [userName, setUserName] = useState("");
+  const [name, setUserName] = useState("");
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
@@ -14,9 +14,11 @@ function Contact() {
 
     if (inputType === "email") {
       setEmail(inputValue);
-    } else if (inputType === "userName") {
+    }
+    if (inputType === "name") {
       setUserName(inputValue);
-    } else {
+    }
+    if (inputType === "message") {
       setMessage(inputValue);
     }
   };
@@ -24,12 +26,14 @@ function Contact() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    if (!validateEmail(email) || !userName) {
+    console.log(message);
+
+    if (!validateEmail(email) || !name) {
       setErrorMessage("Email or Name is invalid");
       return;
     }
 
-    if (!setMessage(message)) {
+    if (!message) {
       setErrorMessage(`Message is required.`);
       return;
     }
@@ -45,14 +49,12 @@ function Contact() {
         <div>
           <h3>Thank you for viewing my Portfolio!</h3>
           <p>Want to connect?</p>
-          <address><strong>
-            Charlotte, NC </strong><br />
+          <address>
+            <strong>Charlotte, NC </strong>
+            <br />
             P: <a href="tel:111.111.1111">111.111.1111</a>
             <br />
-            E:{" "}
-            <a href="mailto://email@email.com">
-              email@email.com
-            </a>
+            E: <a href="mailto://email@email.com">email@email.com</a>
           </address>
           <p>
             <strong>I'd love to connect!</strong>
@@ -61,11 +63,11 @@ function Contact() {
 
         <div className="contact-form">
           <h3>Contact Me</h3>
-          <form className="form">
+          <form target="_blank" action="https://formsubmit.co/50b856b4356ea56f971217b3a081fecb" method="POST">
             <label for="contact-name">Name</label>
             <input
-              value={userName}
-              name="userName"
+              value={name}
+              name="name"
               onChange={handleInputChange}
               type="text"
               id="contact-name"
@@ -91,7 +93,7 @@ function Contact() {
               id="contact-message"
               placeholder="Message"
             />
-            <button type="button" onClick={handleFormSubmit}>
+            <button type="submit" onClick={handleFormSubmit}>
               Connect!
             </button>
           </form>

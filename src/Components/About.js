@@ -10,7 +10,7 @@ export default class About extends Component {
           <div className="profileImage">
             <img src={profileImage} style={{ width: "350px" }} alt="profile" />
           </div>
-          <div className="row">
+          <div>
             <div className="nine columns main-col">
               <h2>About Me</h2>
               <p id="para">{informationData.about}</p>

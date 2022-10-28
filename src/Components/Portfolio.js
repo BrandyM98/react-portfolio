@@ -1,8 +1,5 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, a } from "react-router-dom";
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
 
 export default class Porfolio extends Component {
   render() {
