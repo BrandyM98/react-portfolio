@@ -52,9 +52,11 @@ function Contact() {
           <address>
             <strong>Charlotte, NC </strong>
             <br />
-            P: <a href="tel:111.111.1111">111.111.1111</a>
+            Phone: <a href="tel:951.733.6525">951.733.6525</a>
             <br />
-            E: <a href="mailto://email@email.com">email@email.com</a>
+            Email: <a href="mailto://brandymoore923@gmail.com">brandymoore923@gmail.com</a>
+            <br />
+            <a target="blank" href="https://calendly.com/brandymoore/30min"><strong>My Calendly Link</strong></a> 
           </address>
           <p>
             <strong>I'd love to connect!</strong>

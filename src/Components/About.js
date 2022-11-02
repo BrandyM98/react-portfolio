@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import profileImage from "../assets/images/profile.png";
 
 export default class About extends Component {
   render() {
@@ -7,9 +6,6 @@ export default class About extends Component {
     return (
       <div className="row banner">
         <section id="about">
-          <div className="profileImage">
-            <img src={profileImage} style={{ width: "350px" }} alt="profile" />
-          </div>
           <div>
             <div className="nine columns main-col">
               <h2>About Me</h2>

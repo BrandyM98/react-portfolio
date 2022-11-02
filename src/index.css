@@ -20,13 +20,16 @@ code {
 /*  ------------------------------- */
 /* -------------HEADER------------- */
 /*  ------------------------------- */
+.profileImage {
+  padding-top: -10px;
+  justify-content: center;
+}
+ 
 .row {
   width: 100% !important;
 }
 
 #home {
-  background-image: url("../src/assets/images/bg.jpeg");
-  background-size: cover;
   min-height: 100vh;
   width: 100%;
   height: auto;
@@ -43,12 +46,6 @@ code {
   position: sticky;
 }
 
-.logo {
-  display: inline-block;
-  padding: 5px;
-}
-
-
 ul#nav li.current a {
   color: #024e76;
 }
@@ -57,11 +54,11 @@ ul#nav li.current a {
   font-size: 18px;
   line-height: 1.2;
   left: 0;
-  line-height: 200px;
+  line-height: 100px;
   margin-top: -100px;
   position: absolute;
   text-align: center;
-  top: 50%;
+  top: 41%;
   width: 100%;
 
 }
@@ -71,15 +68,15 @@ ul#nav li.current a {
 /*  ------------------------------- */
 #about {
   min-height: 100vh;
-}
-
-.profileImage {
-padding-top: 90px;
+  background: #d2a073;
+  padding-top: 20%;
+  
 }
 
 #para {
+
   text-align: center;
-  padding: 20px;
+  padding: 90px;
   font-size: large;
 }
 
@@ -88,7 +85,6 @@ padding-top: 90px;
 /*  ------------------------------- */
 #portfolio {
   min-height: 100vh;
-  background: #d2a073;
 }
 
 #item-wrap {
@@ -104,9 +100,6 @@ padding-top: 90px;
 /*  ------------------------------- */
 #contact {
   min-height: 100vh;
-  padding: 50px;
-  background: #d2a073;
-
 }
 
 .form-group {
@@ -193,6 +186,7 @@ padding-top: 90px;
 
 #resume{
   padding-top: 70px;
+  background: #d2a073;
 }
 
 .download-intro p {
@@ -205,11 +199,10 @@ padding-top: 90px;
 }
 
 .resume-body {
+  background: #d2a073;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 10%;
-  margin-top: 5%;
 }
 
 .resume-body>* {
@@ -255,12 +248,13 @@ padding-top: 90px;
   color: #285950;
   font-size: 25px;
   font-weight: bold;
+  padding-top: 10px;
 }
 
 .column-text {
   color: #285950;
   font-size: 20px;
-  padding: 5px;
+  padding: 15px;
 }
 
 .column-text ul li {
